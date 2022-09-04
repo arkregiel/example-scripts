@@ -8,3 +8,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Tworzenie sumy kontrolnej (md5, sha256, sha512) pliku [Python]](./hash_checksum.py)
 - [Crackowanie MD5 [Python]](./md5_passwd_crack_dict.py)
 - [Reverse Shell [Python]](./connect_back_payload.py)
+- [Generowanie losowego hasła [C++]](./passwd_gen.cpp)
