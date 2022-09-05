@@ -11,3 +11,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Reverse Shell [Python]](./connect_back_payload.py)
 - [Generowanie losowego hasła [C++]](./passwd_gen.cpp)
 - [Proxy TCP [Python]](./proxy_tcp.py)
+- [Keylogger [Python]](./keylogger.py)
