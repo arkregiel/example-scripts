@@ -45,14 +45,14 @@ import itertools
 from sys import argv
 
 # Z tego modułu skorzystamy, żeby nie pisać ręcznie 
-# wszystkich 96 znaków, których będziemy używać
+# wszystkich 95 znaków, których będziemy używać
 # przy łamaniu hasła
 import string
 
 # Tworzymy zbiór znaków, których użyjemy do generowania
 # ciagów znaków będących próbami odgadnięcia hasła
 ALPHABET = string.ascii_letters + string.digits 
-ALPHABET += r"~`!@#$%^ &*()-_=+[]{}\\\"';:,.<>/?"   # 96 znaków
+ALPHABET += r"~`!@#$%^ &*()-_=+[]{}|\';:,.<>/?" + '"'  # 95 znaków
 
 # Skrypt jest uruchamiany wraz z wartością hasha MD5 hasła,
 # które będziemy próbować złamać.
@@ -81,7 +81,7 @@ for length in range(1, 17):
 
     # Korzystamy z funkcji itertools.product do wygenerowania wariacji
     # ciągów znaków o danej długości length.
-    # Dla ciągu znaków o długości 5 jest ich 96^5 (mamy do dyspozycji 96 znaków)
+    # Dla ciągu znaków o długości 5 jest ich 95^5 (mamy do dyspozycji 95 znaków)
     for variation in itertools.product(ALPHABET, repeat=length):
 
         # Funkcja itertools.product zwraca krotkę,
