@@ -13,3 +13,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Proxy TCP [Python]](./proxy_tcp.py)
 - [Keylogger [Python]](./keylogger.py)
 - [Szyfr Cezara [C++]](./caesar.cpp)
+- [Generowanie kluczy RSA [Python]](./gen_rsa_keys.py)
