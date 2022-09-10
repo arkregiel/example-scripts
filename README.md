@@ -14,3 +14,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Keylogger [Python]](./keylogger.py)
 - [Szyfr Cezara [C++]](./caesar.cpp)
 - [Generowanie kluczy RSA [Python]](./gen_rsa_keys.py)
+- [Web Directory Enumeration [Python]](./web_dir_enum.py)
