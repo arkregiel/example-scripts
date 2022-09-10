@@ -15,3 +15,5 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Szyfr Cezara [C++]](./caesar.cpp)
 - [Generowanie kluczy RSA [Python]](./gen_rsa_keys.py)
 - [Web Directory Enumeration [Python]](./web_dir_enum.py)
+- [Serwer TCP [Ruby]](./tcp_server.rb)
+- [Klient TCP [Ruby]](./tcp_client.rb)
