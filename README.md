@@ -17,3 +17,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Web Directory Enumeration [Python]](./web_dir_enum.py)
 - [Serwer TCP [Ruby]](./tcp_server.rb)
 - [Klient TCP [Ruby]](./tcp_client.rb)
+- [Informacje o pliku (Linux) [C]](./stat.c)
