@@ -18,3 +18,4 @@ Przykładowe proste skrypty i programy proof-of-concept demonstrujące różne i
 - [Serwer TCP [Ruby]](./tcp_server.rb)
 - [Klient TCP [Ruby]](./tcp_client.rb)
 - [Informacje o pliku (Linux) [C]](./stat.c)
+- [Prosty Traceroute [C#]](./PingTraceRoute.cs)
